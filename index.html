@@ -1,213 +1,317 @@
 <!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<body class="w3-light-grey">
+<html lang="en">
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Protfolio</title>
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="myImage.jpeg" style="width:100%" alt="My_Image"  class="w3-hover-grayscale">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2 style="color: purple" >Kamal Lama</h2>
-          </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-md-4">
+                    <img src="img/myImage.jpeg" alt="myPicture">
+                </div>
+                <!--Second column of my Buttons and Navigation-->
+
+                <div class="col-lg-8 col-md-8">
+                    <div class="d-flex flex-column">
+                        <div class="p-5 bg-dark text-white">
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <h1 class="dispaly-4">Kamal Lama</h1>
+                                <div><i class="fa fa-facebook-square fa-2x"></i></div>
+                                <div><i class="fa fa-linkedin-square fa-2x"></i></div>
+                                <div><i class="fa fa-github-square fa-2x"></i></div>
+                                <div><i class="fa fa-twitter-square fa-2x"></i></div>
+
+                            </div>
+
+                        </div>
+                        <!--My Position -->
+                        <div class="p-3 text-white bg-blk">
+                            <p> <kbd>J</kbd>
+                                <kbd>U</kbd>
+                                <kbd>N</kbd>
+                                <kbd>I</kbd>
+                                <kbd>O</kbd>
+                                <kbd>R</kbd>
+                                <kbd>_</kbd>
+                                <kbd>S</kbd>
+                                <kbd>O</kbd>
+                                <kbd>F</kbd>
+                                <kbd>T</kbd>
+                                <kbd>W</kbd>
+                                <kbd>A</kbd>
+                                <kbd>R</kbd>
+                                <kbd>E</kbd> </p>
+                            <p> <kbd>D</kbd>
+                                <kbd>E</kbd>
+                                <kbd>V</kbd>
+                                <kbd>E</kbd>
+                                <kbd>L</kbd>
+                                <kbd>O</kbd>
+                                <kbd>P</kbd>
+                                <kbd>E</kbd>
+                                <kbd>R</kbd>
+                            </p>
+                            <p><kbd>Space</kbd></p>
+
+                        </div>
+                        <!--Navigation Blocks to my Docs-->
+                        <div class="d-flex flex-row text-center text-white align-item-start">
+                            <div class="p-4 bg-danger font-div" data-toggle="collapse" data-target="#home">
+                                <i class="fa fa-home fa-2x d-block"></i>Home
+                            </div>
+
+                            <div class="p-4 bg-primary font-div" data-toggle="collapse" data-target="#resume">
+                                <i class="fa fa-graduation-cap fa-2x d-block"></i>Resume
+                            </div>
+
+                            <div class="p-4 bg-success font-div" data-toggle="collapse" data-target="#work">
+                                <i class="fa fa-folder fa-2x d-block"></i>Work
+                            </div>
+
+                            <div class="p-4 bg-warning font-div" data-toggle="collapse" data-target="#contact">
+                                <i class="fa fa-envelope fa-2x d-block"></i>Contact
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Developer</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London,TW4 7EU, UK</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>kmlmonk@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>07963492269</p>
-          <hr>
-          <!--Skills-->
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          
-          <p>C# .Net/Web Form/ MVC</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>ASP.Net Core (On Process...)</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:40%">40%</div>
-          </div>
-        
-          <p>HTML /CSS/ JavaScript</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
-          </div>
+        </div>
 
-          <p>BootsTrap</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>            
+    </header>
+    <!--My Page content For Home-->
+    <div class="container">
+
+        <div class="collapse" id="home">
+            <div class="p-5 text-white bg-danger">
+                <h2> Personal Statement
+                    <hr>
+                </h2>
+                <p> A recent Graduate in Software Engineering BEng 2:1 (Hons) 2019 from London Metropolitan University,
+                    looking for Junior C#, ASP.NET and SQL Server Full stack Developer job to utilise current skills and
+                    knowledge into real world project.
+                    My eventual goal is to become a C# ASP.NET full stack developer and I would love to design aesthetic
+                    front end as well as efficient, secure and flawless backend software system for the business where I
+                    work for.
+                </p>
             </div>
 
-            <p>SQL Server</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
-          </div>
+            <div class="card card-body">
 
-          <p>Oracle SQL</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
-          </div>
-          
-          <p>Wordpress/Prototype</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          
-          <p>PhotoShop</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">55%</div>
-          </div>
-          <p>OOP</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
-          </div>
-          <p>SEO</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>AGILE</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
+                <h2> SKILLS
+                    <hr>
+                </h2>
+                <h4>OOP</h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:98%">98%</div>
+                </div>
+                <h4>C# ASP.Net WPF & WebForm </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%">95%
+                    </div>
+                </div>
 
-          <br>
+                <h4>C# MVC & MVC Core </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%">40%
+                    </div>
+                </div>
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:75%"></div>
-          </div>
-          <p>Hindi</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:85%"></div>
-          </div>
-          <p>Nepali</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <br>
+                <h4>C# Razor </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 65%">65%
+                    </div>
+                </div>
+
+                <h4>Entity Framework / Core </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%">40%
+                    </div>
+                </div>
+
+                <h4>SQL Server & Oracle SQL </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%">75%
+                    </div>
+                </div>
+
+                <h4>HTML</h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%"> 90%
+                    </div>
+                </div>
+
+                <h4>CSS</h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animited" style="width:80%">80%</div>
+                </div>
+                <h4>Bootstrap</h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%">70%</div>
+                </div>
+                <h4>JavaScript</h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-animated progress-bar-striped" style="width:70%">70%</div>
+                </div>
+
+            </div>
         </div>
-      </div><br>
 
-    <!-- End Left Column -->
+
+
+        <!--Second Part-->
+
+        <div class="collapse" id="resume">
+            <div class="p-5 text-white bg-primary">
+                <h2>Resume</h2>
+                <p class="mb-5"> Some Statement </p>
+            </div>
+            <div class="card card-body">
+                <h2>Work Experience</h2>
+                <p> Work history of Kamal</p>
+
+                <div class="card-deck text-center">
+                    <div class="card">
+                        <div class="card-header text-uppercase font-weight-bold">
+                            WebDeveloper
+                        </div>
+                        <div class="card-body text-uppercase">OCS </p>
+                            <p class="bg-dark text-white p-2"> Response </p>
+                            <p class="bg-dark text-white p-2"> Cleaner Driver </p>
+
+                        </div>
+                        <div class="card-footer">Date:2012-2015 </div>
+                    </div>
+                    <!--Second Card -->
+                    <div class="card">
+                        <div class="card-header text-uppercase font-weight-bold">
+                            WebDeveloper
+                        </div>
+                        <div class="card-body text-uppercase">OCS </p>
+                            <p class="bg-dark text-white p-2"> Response </p>
+                            <p class="bg-dark text-white p-2"> Cleaner Driver </p>
+
+                        </div>
+                        <div class="card-footer">Date:2012-2015 </div>
+                    </div>
+                    <!--Third Card-->
+                    <div class="card">
+                        <div class="card-header text-uppercase font-weight-bold">
+                            WebDeveloper
+                        </div>
+                        <div class="card-body text-uppercase">OCS </p>
+                            <p class="bg-dark text-white p-2"> Response </p>
+                            <p class="bg-dark text-white p-2"> Cleaner Driver </p>
+
+                        </div>
+                        <div class="card-footer">Date:2012-2015 </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+         <!--Third Part-->
+
+         <div class="collapse" id="work">
+            <div class="p-5 text-white bg-success">
+                <H3>Protfolio</H3>
+                <p> some of my Work</p>
+            </div>
+            <div class="card card-body">
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 bg-dark">
+                        <img src="img/msalc.jpg"> 
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                            <img src="img/sewaLogo.jpg"> 
+                        </div>
+                        <div class="col-md-4 col-lg-4 bg-dark">
+                                <img src="img/msalc2.jpg"> 
+                            </div>
+
+                            <div class="col-md-6 col-lg-6 bg-dark">
+                                    <img src="img/search.jpg"> 
+                                </div>
+                                <div class="col-md-6 col-lg-6 bg-dark">
+                                        <img src="img/ropey.jpg"> 
+                                    </div>
+                </div>
+            </div>
+
+         </div>
+         <div class="collapse" id="contact">
+             <div class="p-5 text-white bg-warning">
+                 <h3> Contact </h3>
+             </div>
+             <div class="card card-body">
+                 <div class="row  justify-content-center">
+                     <div class="col-lg-8 col-md-8 col-12">
+                            <form>
+                                <div class="form-group">
+                                    <div class="input-group input-group-lg">
+                                        <span class="input-group-addon bg-warning text-white p-2">
+                                            <i class="fa fa-user"></i>
+                                        </span>
+                                        <input type="text" name="" class="form-control bg-dark text-white" placeholder="Name">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                        <div class="input-group input-group-lg ">
+                                            <span class="input-group-addon bg-warning text-white p-2">
+                                                <i class="fa fa-phone"></i>
+                                            </span>
+                                            <input type="text" name="" class="form-control bg-dark text-white" placeholder="Contact No.">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                            <div class="input-group input-group-lg">
+                                                <span class="input-group-addon bg-warning text-white p-2">
+                                                    <i class="fa fa-envelope"></i>
+                                                </span>
+                                                <input type="text" name="" class="form-control bg-dark text-white" placeholder="Email">
+                                            </div>
+                                        </div>
+
+                                        <input type="submit" name="" class="btn btn-primary" value="Send">
+                            </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
     </div>
 
-    <!-- Right Column -->
+    <!--Footers goes from here-->
 
-    <div class="w3-twothird">
-    
-    <!--Educations -->
-        <div class="w3-container w3-card w3-white">
-            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><h3>London Metropolitan University</h3><br>
-                Software Engineering (BEng)</h5>
-              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018-2019 (2:1)</h6>
-              <p><h6 class="w3-text-teal"> Module </h6> <strong> Advanced Software Engineering | Advance Database System Development | Application Development | Project</p>
-              </strong>
-              <hr>
-            </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><h3>UK COLLEGE OF BUSINESS AND COMPUTING </h3></h5>
-              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2018 (Merit)</h6>
-              <p>Higher National Diploma(HND)</p>
-              <p><h6 class="w3-text-teal">Module: Level 5 </h6> <strong> | Data Analyse and Design | Local Area Networking Technologies | Ecommerce Strategy |
-                 Information System in Organisations | Web Application Development | Work-based Experience | Digital Image Creation and Development | Management in IT </p>
-                 <h6 class="w3-text-teal">Module: Level 4 </h6> <strong>
-                | Data Analyse and Design | Local Area Networking Technologies | Ecommerce Strategy | Information System in Organisations | Web Application Development | 
-                Work-based Experience | Digital Image Creation and Development | Management in IT 
+    <footer class="p-5 bg-dark text-center">
+        <button class="btn btn-info"> <i class="fa fa-download fa-2x"> </i>Download </button>
 
-              </strong>
-              <hr>
-            </div>           
-          </div>
-
-
-
-
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-            <h5 class="w3-opacity"><b>Digital Marketing Consultant | MSALC LTD. |Part-Time</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2019 - <span class="w3-tag w3-teal w3-round"> July 2019 </span></h6>
-            <p> Creating and maintaining websites and consulting digital marketing strategy for business. Consulting benifits of SEO, Google Analytics, Social media marketing.</p>  </p>
-            <hr>
-          </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Driver Response | OCS |Heathrow T1-T5</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2012 - Jan 2015 </h6>
-          <p>Cleaning Aircraft Wind Screen| Driving Different Vehicles inside Heathrow Airport T1-T5| 
-            |Communicating with work Allocaters and Checking Aircraft cleaning| Giving Feedback to Allocators | Coordinating between Aircraft person(pilot-engineers) 
-            and Office | Helping Cleaners as company required. </p>
-          <hr>
-        </div>
-        <!--Protfolio-->
-        <div class="w3-container w3-card w3-white">
-            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-plug fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Protfolio</h2>
-            <div class="w3-container">
-              <ul>
-                <li><a href="www.thesewa.org">www.theSewa.org</a> (design and developed (SDLC)) for nepalese community</li>
-                <li><p>University Project | <a href="https://github.com/kmllama">DDWA Project | Ropey DVD software | Library Management System | Employee Payroll System </a></p> 
-                  <p>(Using C# Asp.net, Webform, SQL server and Oracle SQL) </p></li>
-                
-              </ul>
-             
-              <hr>
-            </div>
-            
-          </div>
-          <!--Interest & Hobby-->
-          <div class="w3-container w3-card w3-white">
-              <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-reorder fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Interest & Hobby</h2>
-              <div class="w3-container">
-                <ul>
-                  <li> Cloud, Distributed Database Architecture and Blockchain</li>
-                  <li>Travelling, watching animation and sci-fi movies </li>
-                      <li>Playing music, watching news, Reading Personal Development Books</li>
-                  
-                </ul>
-               
-                <hr>
-              </div>
-              
-            </div>
-
-
-      </div>
-
-     
-
-    <!-- End Right Column -->
+    </footer>
     </div>
-    
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
-</div>
-
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  
-  <i class="fa fa-linkedin w3-hover-opacity">kmlmonk@gmail.com</i>
-  
-</footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <script type="text/javascript">
+        $('.font-div').click(function(){
+            $('.collapse').collapse('hide');
+        });
+    </script>
 </body>
+
 </html>
