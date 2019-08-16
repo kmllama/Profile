@@ -1,0 +1,28 @@
+
+
+
+.bg-blk{
+    background-color:lightslategray;
+    font-family: Helvetica;
+    text-align:center;
+}
+img{
+    width:100%;
+    height:100%;
+}
+.font-div{
+    width:30%;
+}
+/* responsive */
+@media only screen and (min-width: 990px){
+    .font-div{
+        padding: 75px 0px !important;
+    }
+}
+ul.int{
+    list-style-type: square;
+}
+ 
+.NameList ul li {
+    list-style-type:none;
+}
