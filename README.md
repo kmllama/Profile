@@ -3,6 +3,8 @@
 # and send me any comment you have regarding my Resume Porfolio site ..
 # Please copy in your text editor to manipulate
 
+By Kamal Lama
+
 
 
 
